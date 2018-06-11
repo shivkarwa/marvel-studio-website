@@ -35,7 +35,7 @@ exit();
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Marvel feedback | Admin login</title>
+	<title>Shopping Portal | Admin login</title>
 	<link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link type="text/css" href="css/theme.css" rel="stylesheet">
@@ -51,15 +51,15 @@ exit();
 					<i class="icon-reorder shaded"></i>
 				</a>
 
-			  	<a class="brand" href="feedback.php">
-			  		Marvel feedback | Admin
+			  	<a class="brand" href="index.html">
+			  		Shopping Portal | Admin
 			  	</a>
 
 				<div class="nav-collapse collapse navbar-inverse-collapse">
 				
 					<ul class="nav pull-right">
 
-						<li><a href="/marvel/index.html">
+						<li><a href="http://localhost/shopping/">
 						Back to Portal
 						
 						</a></li>
@@ -83,8 +83,7 @@ exit();
 						<div class="module-head">
 							<h3>Sign In</h3>
 						</div>
-						<span style="color:red;" >
-<?php echo htmlentities($_SESSION['errmsg']); ?><?php echo htmlentities($_SESSION['errmsg']="");?></span>
+						<span style="color:red;" ><?php echo htmlentities($_SESSION['errmsg']); ?><?php echo htmlentities($_SESSION['errmsg']="");?></span>
 						<div class="module-body">
 							<div class="control-group">
 								<div class="controls row-fluid">
