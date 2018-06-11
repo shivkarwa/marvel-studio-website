@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<title>Marvel Studios</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<style>
+	input{
+		background-color:/*#340a07*/ black;
+		color: #d2cec8;
+		font-family:serif;
+        border-radius: 5px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+		font-weight:bold;
+		border:0.7px solid white;
+		padding:.5vw;
+		-webkit-transition-duration: 0.3s;
+		transition-duration:0.3s;
+	}
+	input:hover{
+		background-color:/*#340a07*/ white;
+		color: black;
+		border:0.7px inset white;
+		box-shadow:3px 3px 1px darkgrey;
+	}
+	
+	input:focus{
+		border-radius: 4px;
+	}
+	#tr{
+		position:absolute;
+		left:/*1065px*/65%;
+		
+	}
+	
+	span.de{
+		font-weight:bold;
+		
+		
+	}
+	
+	div.sum{
+		text-align:center;
+		display:none;
+		font-size:1rem;
+		line-height:3vw;
+		font-weight:bold;
+	}
+	
+	span.de:hover+div.sum{
+		display:block;
+	}
+	
+	#quiz{
+		color:white;
+		text-decoration:none;
+		font-size:24px;
+	}
+	
+	#quiz:hover{
+		font-weight:bold;
+		color:darkred;
+	}
+	
+	#replay{
+		display:block;
+		margin-top:3vw;
+		font-size:0.99rem;
+		color:white;
+		text-decoration:none;
+		opacity:0.4;
+		margin-bottom:-0.9vw;
+	}
+	
+	#replay:hover{
+		opacity:0.8;
+		font-weight:bold;
+	}
+</style>
+
+<script>
+	var obj={
+		trailertitle:document.getElementById("trailertitle"),
+		trailervideo:document.getElementById("trailervideo"),
+		changeTrailer:function(){
+			trailertitle.innerHTML="Thor: Ragnarok";
+			trailervideo.setAttribute("src","Thor2.mp4");
+			trailervideo.style.maxHeight="50vh";
+		},
+		changeTrailer2:function(){
+			trailertitle.innerHTML="Black Panther";
+			trailervideo.setAttribute("src","bp.mp4");
+			trailervideo.style.maxHeight="70vh";
+		},
+		changeTrailer3:function(){
+			trailertitle.innerHTML="Avengers: Infinity War";
+			trailervideo.setAttribute("src"," Avengers  Infinity.MP4");
+			trailervideo.style.maxHeight="50vh";
+		},
+		changeTrailer4:function(){
+			trailertitle.innerHTML="Ant-Man and the Wasp";
+			trailervideo.setAttribute("src","ANTMAN and the WASP.MP4");
+			trailervideo.style.maxHeight="70vh";
+		},
+		changeTrailer5:function(){
+			trailertitle.innerHTML="Spider-Man: Homecoming sequel";
+			trailervideo.setAttribute("src","Spider-Man  The New Avenger.MP4");
+			trailervideo.style.maxHeight="70vh";
+		},
+		changeTrailer6:function(){
+			trailertitle.innerHTML="Guardians of the Galaxy Vol. 3";
+			trailervideo.setAttribute("src","Guardians of the Galaxy Vol 3.MP4");
+			trailervideo.style.maxHeight="70vh";
+		}
+	}
+	
+</script>
+
+<link href="indexcss.css" rel="stylesheet" type="text/css"></link>
+
+</head>
+
+
+<body>
+	<header>
+	<div class="logo"><a href="index.html"><img src="marvelstudioslogo.png" alt="Marvel Logo" class="logo" /></a></div>
+	</header>
+	
+	<br/>
+	
+	<div id="movietv">
+	
+		<nav class="movies">
+		<br/>
+			<ul class="movies">
+				<li><a href="movies/Captain_America_The_First_Avenger/index.html">Captain America: The First Avenger</a></li>
+				<li><a href="movies/The Incredible Hulk/index.html">The Incredible Hulk</a></li>
+				<li><a href="movies/Iron Man 1/index.html">Iron Man</a></li>
+				<!--<li><a href="movies/thor/thor.html">Thor</a></li>-->
+				<li><a href="movies/Iron Man 2/index.html">Iron Man 2</a></li>
+				<li><a href="movies/Thor/index.html">Thor</a></li>
+				<li><a href="movies/The Avengers/index.html">The Avengers</a></li>
+				<!--<li><a href="movies/thor2/thor2.html">Thor : The Dark World</a></li>-->
+				<li><a href="movies/Iron Man 3/index.html">Iron Man 3</a></li>
+				<!--<li><a href="movies/gotg/gotg.html">Guardians of the Galaxy</a></li>-->
+				<li><a href="movies/Thor the dark world/index.html">Thor: The Dark World</a></li>
+				<!--<li><a href="movies/antman/antman.html">Ant-Man</a></li>-->
+				<li><a href="movies/Captain America The Winter Soldier/index.html">Captain America: The Winter Soldier</a></li>
+				<li><a href="movies/Guardians of the Galaxy/index.html">Guardians of the Galaxy</a></li>
+				<!--<li><a href="movies/gotg2/gotg2.html">Guardians of the Galaxy Vol. 2</a></li>-->
+				<li><a href="movies/Avengers Age of Ultron/index.html">Avengers: Age of Ultron</a></li>
+				<li><a href="movies/Ant-Man/index.html">Ant-Man</a></li>
+				<li><a href="movies/Captain America Civil War/index.html">Captain America: Civil War</a></li>
+				<li><a href="movies/Doctor Strange/index.html">Doctor Strange</a></li>
+				<li><a href="movies/Guardians of the Galaxy Vol. 2/index.html">Guardians of the Galaxy Vol. 2</a></li>
+				<li><a href="movies/Spider-Man Homecoming/index.html">Spider-Man: Homecoming</a></li>
+				<li><a href="movies/Thor Ragnarok/index.html">Thor: Ragnarok</a></li>
+				<li><a href="movies/Black Panther/index.html">Black Panther</a></li>
+				<li><a href="movies/Avengers Infinity War/index.html">Avengers: Infinity War</a></li>
+				<!--<li><a href="#th">Thor : Ragnarok</a></li>-->
+			</ul>
+			<br/>
+		</nav>
+		
+		<main class="body">
+		<br/>
+		<br/>
+		<br/>
+		
+			<section>
+				
+				<a  href="/marvel/store/shopping/index.php" id="quiz">STORE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+				<a  href="/marvel/character/index.html" id="quiz">CHARACTER</a>
+				<br/><br/>
+			
+			</section>
+			
+			<section id="trailer">
+			<br>
+			<br>
+				
+				<input type="button" id="bp" value="Thor: Ragnarok" onclick="obj.changeTrailer()" style="outline:0;" />
+				<input type="button" id="tr" value="Black Panther" onclick="obj.changeTrailer2()" style="outline:0;" /><br><br>
+				<input type="button" id="bp" value="Avengers: Infinity War" onclick="obj.changeTrailer3()" style="outline:0;" />
+				<input type="button" id="tr" value="Ant-Man and the Wasp" onclick="obj.changeTrailer4()" style="outline:0;" /><br><br>
+				<input type="button" id="bp" value="Spider-Man: Homecoming sequel" onclick="obj.changeTrailer5()" style="outline:0;" />
+				<input type="button" id="tr" value="Guardians of the Galaxy Vol. 3" onclick="obj.changeTrailer6()" style="outline:0;" /><br><br>
+				<h1 id="trailertitle">Movie Trailer</h1>				
+				<br/><br/>
+				<video src="thormedia/Thor.mp4" controls style="max-height:50vh;" preload id="trailervideo">
+					Your browser does not support video.
+				</video>
+			</section>
+			<br/>
+			
+			<section id="um">
+				<h2 >Upcoming Movies </h2>
+				<ol alignmid="upmo">
+					
+					
+					<br/><li><span class="de" id="th">Ant-Man and the Wasp</span><div class="sum">Ant-Man and the Wasp is an upcoming 
+					American superhero film based on the Marvel Comics characters Scott Lang / Ant-Man and Hope van Dyne / Wasp. 
+					Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is intended to be the 
+					sequel to 2015's Ant-Man, and the twentieth film in the Marvel Cinematic Universe.</div></li><br/>
+					
+					<li><span class="de">Captain Marvel</span><div class="sum">
+						Captain Marvel is an upcoming American superhero film based on the Marvel Comics character Carol Danvers / Captain
+						Marvel. A film based on Carol Danvers has been in development at Marvel Studios since as early as May 2013. A 
+						release date was first set in October 2014, and Perlman and LeFauve were hired as a writing team the following 
+						April after submitting separate takes on the character. Larson's casting was announced at the 2016 San Diego 
+						Comic-Con International, making it Marvel Studios' first female-led solo film.</div>
+					</li><br/>
+					
+					<li><span class="de">Avengers 4</span><div class="sum"> Avengers 4, is an upcoming American superhero film based on 
+					the Marvel Comics superhero team the Avengers, produced by Marvel Studios and distributed by Walt Disney Studios 
+					Motion Pictures. It is intended to be the direct sequel to 2018's Avengers: Infinity War, as well as the sequel 
+					to 2012's Marvel's The Avengers and 2015's Avengers: Age of Ultron and the twenty-second film in the Marvel Cinematic Universe (MCU).</div></li><br/>
+					
+					<li><span class="de">Spider-Man: Homecoming sequel</span><div class="sum">The film, which is a direct sequel to 2017's Spider-Man: 
+					Homecoming, is said to deal with the aftermath of The Avengers 4 and help the Marvel Cinematic Universe transition into its next 
+					era.</div></li><br/>
+					
+					<li><span class="de">Guardians of the Galaxy Vol. 3</span><div class="sum">Guardians of the Galaxy Vol. 3 is a sequel of vol 2 
+					2017 American superhero film based on the Marvel Comics superhero team Guardians of the Galaxy</div></li><br/>
+					
+				
+				</ol>
+			</section>
+		
+			
+			<section>
+				<h2>Next Avengers Movie</h2><br/>
+				<p>The Big Marvel movie is releasing on 5 July 2018.</p>
+				<br/>
+				<img id="aif" src="Ant-Man_&_The_Wasp_movie_logo.jpg" title="Ant-Man and the Wasp" alt="poster"/><br/><br/>
+				<p>Ant-Man and the Wasp is an upcoming American superhero film based on the Marvel Comics <br>characters Scott Lang / Ant-Man and Hope van Dyne / Wasp.<br/></p>
+			</p>
+			</section><br/><br/>
+		</main>
+		
+		<nav class="tv">
+		<br/>
+			<ul class="tv">
+				<li><a href="movies/Agents of S.H.I.E.L.D. – Season 1/index.html">Agents of S.H.I.E.L.D. – Season 1</a></li>
+				<!--<li><a href="tv/carter/carter.html">Marvel's Agent Carter</a></li>-->
+				<li><a href="movies/Agents of S.H.I.E.L.D. – Season 2/index.html">Agents of S.H.I.E.L.D. – Season 2</a></li>
+				<li><a href="movies/Agent Carter – Season 1/index.html">Agent Carter – Season 1 </a></li>
+				<li><a href="movies/Daredevil – Season 1/index.html">Daredevil – Season 1</a></li>
+				<li><a href="movies/Agents of S.H.I.E.L.D. – Season 3/index.html">Agents of S.H.I.E.L.D. – Season 3</a></li>
+				<li><a href="movies/Jessica Jones – Season 1/index.html">Jessica Jones – Season 1</a></li>
+				
+				<li><a href="movies/Agent Carter – Season 2/index.html">Agent Carter – Season 2</a></li>
+				<!--<li><a href="tv/carter/carter.html">Marvel's Agent Carter</a></li>-->
+				<li><a href="movies/Daredevil – Season 2/index.html">Daredevil – Season 2</a></li>
+				<li><a href="movies/Agents of S.H.I.E.L.D. – Season 4/index.html">Agents of S.H.I.E.L.D. – Season 4</a></li>
+				<li><a href="movies/Luke Cage  – Season 1/index.html">Luke Cage  – Season 1</a></li>
+				<li><a href="movies/Iron Fist - Season 1/index.html">Iron Fist - Season 1</a></li>
+				<li><a href="movies/The Defenders – Season 1/index.html">The Defenders – Season 1</a></li>
+				<li><a href="movies/Inhumans – Season 1/index.html">Inhumans – Season 1</a></li>
+				<li><a href="movies/The Punisher/index.html">The Punisher</a></li>
+				<li><a href="movies/Agents of S.H.I.E.L.D. – Season 5/index.html">Agents of S.H.I.E.L.D. – Season 5</a></li>
+				<li><a href="movies/Cloak & Dagger - Season 1/index.html">Cloak & Dagger - Season 1</a></li>
+				<li><a href="movies/Daredevil - Season 3/index.html">Daredevil - Season 3</a></li>
+				<li><a href="movies/Jessica Jones – Season 2/index.html">Jessica Jones – Season 2</a></li>
+				<li><a href="movies/Luke Cage  – Season 2/index.html">Luke Cage  – Season 2</a></li>
+				<!--<li><a href="tv/inhumans/inhumans.html">Marvel's Inhumans</a></li>-->
+				<!--<li><a href="tv/punisher/punisher.html">Marvel's Punisher</a></li>-->
+			</ul>
+		<br/>
+		</nav>
+	
+	</div>
+	<br/>
+	<br/>
+	<hr/>
+	<footer>
+	<ul id="footerul">
+		<li id="footp1"><a href="contact.html"> Contact Us </a></li>
+		<li id="footp2"><a href="feedback.html"> Feedback to our Movies </a></li>
+	</ul>
+	</footer>
+	<br/>
+	<br/>
+
+	
+	
+	
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<style>
+	
+		body{
+			background-color:black;
+		}
+		
+		video{
+			height:100%;
+			width:100%;
+			position:fixed;
+			top:0;
+			left:0;
+			right:0;
+			bottom:0;
+			z-index:1;
+		}
+		
+		a{
+			color:white;
+			text-decoration:none;
+			position:relative;
+			z-index:100;
+			float:right;
+			top:46vw;
+			right:2vw;
+		}
+		
+		a:hover{
+			color:red;
+			font-weight:bold;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<a href="intro.html">Skip Intro</a>
+
+	<video src="introvideo.mp4" autoplay>Does not support video</video>
+
+</body>
+
+<script>
+
+	setTimeout(function(){window.location.href="intro.html";},37000)
+
+</script>
+
+</html>

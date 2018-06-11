@@ -1,0 +1,150 @@
+body{
+	font-size:1.4vw;
+	background-color:black;
+	color:#d2cec8;
+	background-image:url(mainbgimg.jpg);
+	background-size:70%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+header{background-color:black;}
+
+img.logo{
+	width:25vw;
+}
+div.logo{
+	display:block;
+	width:25vw;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:2.3vw;
+}
+
+div#movietv{
+	display:flex;
+	flex-flow:row;
+	justify-content:space-between;
+	align-items:stretch;
+}
+
+div#movietv{
+	flex: 2 1 84vw;
+}
+
+div#movietv nav{
+	flex: 1 1 18vw;
+}
+
+div#movietv > nav{background-color:/*#340a07*/black;
+border-radius:0px;
+}
+
+ul.movies{
+	list-style-type:none;
+	text-align:center;
+	padding-left:0.5vw;
+	padding-right:1vw;
+	line-height:6vw;
+}
+ul.movies li{
+	text-decoration:none;
+	color:red;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:1vw;
+}
+ul.movies li:nth-child(odd){
+	color:white;
+	background-color:#340a07;
+}
+ul.movies li a{
+	color:inherit;
+	text-decoration:inherit;
+}
+ul.movies li a:hover{
+	font-weight:bold;
+}
+
+ul.tv{
+	list-style-type:none;
+	text-align:center;
+	padding-right:0.5vw;
+	padding-left:1vw;
+	line-height:6vw;
+}
+ul.tv li{
+	text-decoration:none;
+	color:red;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:1vw;
+}
+ul.tv li:nth-child(odd){
+	color:white;
+	background-color:#340a07;
+}
+ul.tv li a{
+	color:inherit;
+	text-decoration:inherit;
+}
+ul.tv li a:hover{
+	font-weight:bold;
+}
+
+footer{
+	font-size:1.5vw;
+	
+	height:20%;
+}
+
+#footp2{
+	float:right;
+	width:20%;
+}
+
+#footp1{
+	float:left;
+	}
+
+#footerul{
+	list-style-type:none;
+	clear:both;
+}
+
+footer a{text-decoration:none;color:inherit;}
+footer a:hover{font-weight:bold;}
+
+main{
+	padding-left:2.5vw;
+	padding-right:2.5vw;
+}
+
+main h2{
+font-weight:bold;
+font-size:2.5vw;
+color:#c22222;
+}
+
+ol#upmo{
+	padding-left:7vw;
+	line-height:3vw;
+	list-style-color:black;
+}
+
+#trailertitle{font-weight:bold;
+font-size:3vw;
+text-align:center;}
+
+img#aif{
+	max-height:50vh;
+}
+
+hr{
+	border-width:7px;
+	border-color:#340a07;
+}
+
+
+
+
+
